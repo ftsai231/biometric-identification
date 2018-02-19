@@ -4,7 +4,7 @@ load('simMatrix1.txt');
 load('simMatrix2.txt');
 
 A = zeros(466);
-
+ 
 for i=1:466
 A(i,:) = sort(simMatrix2(i,:));
 end

@@ -10,7 +10,7 @@ a = diag(simMatrix1);
 D = diag(simMatrix1);
 E = diag(D);
 I = simMatrix1 - E;
-
+ 
 
 b = I(:);
 [X,Y] = hist(b,10);

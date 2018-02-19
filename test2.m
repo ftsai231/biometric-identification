@@ -10,7 +10,7 @@ a = diag(simMatrix2);
 D = diag(simMatrix2);
 E = diag(D);
 I = simMatrix2 - E;
-
+ 
 b = I(:);
 [X,Y] = hist(b,10);
 h1 =  plot(Z,G/466)

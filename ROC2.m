@@ -5,7 +5,7 @@ load('simMatrix1.txt');
 load('simMatrix2.txt');
 
 Gen = diag(simMatrix2);
-
+ 
 E = diag(Gen);
 
 Im = simMatrix2 - E;

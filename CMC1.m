@@ -8,7 +8,7 @@ A = zeros(466);
 for i=1:466
 A(i,:) = sort(simMatrix1(i,:));
 end
-
+ 
 A=fliplr(A);
 
 C = zeros(1,466);

@@ -3,7 +3,7 @@ clc
 load('simMatrix1.txt');
 load('simMatrix2.txt');
 A = diag(simMatrix2);
-
+ 
 %geniune
 B = [0 0 0 0 0 0 0 ];
 for g=1:1:466
